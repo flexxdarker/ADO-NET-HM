@@ -1,0 +1,16 @@
+﻿<Window x:Class="HM21._08._2023.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HM21._08._2023"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button Click="Button_Click" DockPanel.Dock="Top">Show admins</Button>
+        <Button Click="Button_Click_1" DockPanel.Dock="Top">Show All</Button>
+        <Grid DockPanel.Dock="Left">
+            <DataGrid x:Name="grid" Height="410"/>
+        </Grid>
+    </DockPanel>
+</Window>
